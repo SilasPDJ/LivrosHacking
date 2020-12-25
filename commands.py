@@ -22,7 +22,7 @@ class Routine:
     def push_commit(self, commit):
         exe(f"git commit -m teste")
         self.fetch()
-        exe(f'git push -u origin main')
+        exe(f'git push -u origin')
 
     def pull_from(self):
         exe('git pull')
