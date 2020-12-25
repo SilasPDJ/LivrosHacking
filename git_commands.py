@@ -2,6 +2,7 @@ import os
 
 exe = os.system
 
+
 class Routine:
     link_path = 'https://github.com/SilasPDJ/LivrosHacking'
     destiny_url = 'https://github.com/SilasPDJ/LivrosHacking'
@@ -20,7 +21,7 @@ class Routine:
         self.fetch()
 
     def push_commit(self, commit):
-        exe(f"git commit -m teste")
+        exe(f"git commit -m {commit}")
         self.fetch()
         exe(f'git push -u origin')
 
@@ -32,5 +33,6 @@ class Routine:
 
 
 DALE = Routine()
+# DALE.clone()
 DALE.initial()
-DALE.push_commit('from python')
+DALE.push_commit('dale')
