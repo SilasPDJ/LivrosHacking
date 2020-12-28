@@ -1,0 +1,3 @@
+echo 'anything' > filething ================= replace
+
+whereas >> ================================== append

@@ -1,0 +1,5 @@
+
+echo Whats your name?
+read name
+echo Hello $name, hope you\'re well
+echo message: $1
